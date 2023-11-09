@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Paramount CRUD Application runs on this setup:
+* Rails version: Rails 7.0.8
+* Ruby version: ruby 3.1.2p20
+* Database: postgres (postgreSQL) 14.1
+* CSS Framework: TailwindCSS
 
-Things you may want to cover:
+How to run the app:
+1. Clone the repository locally
+2. `bundle install`
+3. `rails db:create`
+4. `rails db:migrate`
+5. `bin/dev`
 
-* Ruby version
+Note: Make sure to setup TailwindCSS with Ruby on Rails
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+** Setting up TailwindCSS with Ruby on Rails
+https://tailwindcss.com/docs/guides/ruby-on-rails
